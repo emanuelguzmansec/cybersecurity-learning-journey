@@ -40,3 +40,26 @@ I completed an interactive analysis of global cybersecurity workforce trends, un
 ## 🛡️ Next Technical Goals
 1. Return to the [OverTheWire Bandit](https://overthewire.org) remote server to hack Level 1 using SSH.
 2. Document core Linux terminal commands (`ls`, `cat`) utilized during text analysis operations.
+
+
+# Day 4: Advanced Linux Text Analysis & Shortcuts
+
+## 🚀 Today's Achievements
+* **Platform:** [OverTheWire Wargames](https://overthewire.org)
+* **Level Completed:** Bandit Level 1 ➔ Level 2 🔓
+* **Key Command Mastered:** Local path targeting (`./`) and text stream interruption (`Ctrl + C`)
+* **Secret Key Extracted:** `PK8fYLZg2hnHSz83pLBL1iEPKdD3QToB`
+
+## 📊 Technical Notes & Troubleshooting
+During today's live server operations, I encountered and resolved a classic Linux terminal behavior regarding special character filenames.
+
+### Command Execution Breakdown
+
+| Command / Shortcut | Behavior Observed | Technical Solution Applied |
+| :--- | :--- | :--- |
+| **`cat -`** | The terminal entered an open-ended input block, waiting for standard input stream. | Forced process interruption using the **`Ctrl + C`** kernel signal [tryhackme.com]. |
+| **`cat ./-`** | Successfully bypasses command option parsing by explicitly defining the relative path. | Revealed the plain-text password for the next level [tryhackme.com]. |
+
+## 🛡️ Next Technical Goals
+1. Connect to `bandit2` using the newly acquired cryptographic password [tryhackme.com].
+2. Practice opening files containing spaces in their filenames within the Linux environment [tryhackme.com].
