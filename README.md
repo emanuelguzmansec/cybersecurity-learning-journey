@@ -42,24 +42,31 @@ I completed an interactive analysis of global cybersecurity workforce trends, un
 2. Document core Linux terminal commands (`ls`, `cat`) utilized during text analysis operations.
 
 
-# Day 4: Advanced Linux Text Analysis & Shortcuts
+
+# Day 4: Digital Forensics & Hardware Architecture Fundamentals
 
 ## 🚀 Today's Achievements
-* **Platform:** [OverTheWire Wargames](https://overthewire.org)
-* **Level Completed:** Bandit Level 1 ➔ Level 2 🔓
-* **Key Command Mastered:** Local path targeting (`./`) and text stream interruption (`Ctrl + C`)
-* **Secret Key Extracted:** `PK8fYLZg2hnHSz83pLBL1iEPKdD3QToB`
+* **Platform:** [TryHackMe](https://tryhackme.com)
+* **Room Completed:** Digital Forensics Lab - Parts & Function 🔓
+* **Competitive Ranking:** Promoted to the **Bronze League** global leaderboard! 🏆
+* **Streak Milestone:** 4-Day Streak Secured 🎯
+* **Points Earned:** +16 pts (Total: 128 pts)
 
-## 📊 Technical Notes & Troubleshooting
-During today's live server operations, I encountered and resolved a classic Linux terminal behavior regarding special character filenames.
+## 📊 Technical Notes: Core Hardware Selection
+Today I analyzed hardware architecture requirements for workstations from a security and operational standpoint, selecting the 6 mandatory internal components for system boot.
 
-### Command Execution Breakdown
+### Workstation Architecture Checklist
 
-| Command / Shortcut | Behavior Observed | Technical Solution Applied |
+| Component | Technical Role | System Dependency |
 | :--- | :--- | :--- |
-| **`cat -`** | The terminal entered an open-ended input block, waiting for standard input stream. | Forced process interruption using the **`Ctrl + C`** kernel signal [tryhackme.com]. |
-| **`cat ./-`** | Successfully bypasses command option parsing by explicitly defining the relative path. | Revealed the plain-text password for the next level [tryhackme.com]. |
+| **CPU** | Core instruction processing and hardware signaling. | Mandatory |
+| **RAM** | Volatile high-speed data stream allocation. | Mandatory |
+| **PSU** | AC to DC voltage regulation for chassis components. | Mandatory |
+| **Network Adapter** | Layer 2/3 packet transmission and device discovery. | Mandatory |
+| **SSD** | Non-volatile, high-speed OS and filesystem storage. | Mandatory |
+| **GPU** | Visual frame rendering and PCIe x16 interface processing. | Mandatory |
 
 ## 🛡️ Next Technical Goals
-1. Connect to `bandit2` using the newly acquired cryptographic password [tryhackme.com].
-2. Practice opening files containing spaces in their filenames within the Linux environment [tryhackme.com].
+1. Proceed with the automated tracking of daily cybersecurity room objectives.
+2. Synchronize Linux command line logs with the public repository layout [github.com].
+
