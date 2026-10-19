@@ -66,6 +66,44 @@ Today I analyzed hardware architecture requirements for workstations from a secu
 | **SSD** | Non-volatile, high-speed OS and filesystem storage. | Mandatory |
 | **GPU** | Visual frame rendering and PCIe x16 interface processing. | Mandatory |
 
+
+
+
+# Technical Log: Days 5 & 6 (Endpoint Security, Network Fundamentals & Global Top 10)
+
+## 🚀 Key Achievements
+* **Platform User:** `emanuelgta119s` 🇨🇴
+* **Score Target:** **256 Points** (Successfully doubled previous metrics) 🎯
+* **Leaderboard Rank:** Entered the **Global TOP 10** inside the global **Bronze League**! 🏆
+* **Network Milestone:** Established a mutual connection with advanced user `rebaza.andy` (1631+ pts) 🤝
+* **Streak Level:** **6-Day Streak Secured** 🔥
+
+---
+
+## 📊 Technical Breakdown & Knowledge Acquired
+
+| Training Day | Platform / Environment | Core Concepts & Technical Focus | Technical Solution Applied / Metric |
+| :--- | :--- | :--- | :--- |
+| **Day 5** | TryHackMe (Defensive) | **Antivirus Engines:** Sandbox emulation, runtime unpacking, and obfuscated signature analysis. | Decoupled platform paywalls to focus strictly on open-source frameworks and malware evasion defenses [tryhackme.com]. |
+| **Day 6** | TryHackMe (Networking) | **Networking Fundamentals:** IP addressing architectures, packet routing data streams, and Layer 2/3 protocols. | Audited network communication rules. Reached **256 Pts** and ranked **#10 globally** [tryhackme.com]. |
+
+---
+
+## 🛡️ Applied Threat Intelligence Metrics
+
+| Architecture Component | Security & Forensic Function | Infrastructure Dependency |
+| :--- | :--- | :--- |
+| **`Emulator`** | Simulates Guest OS instruction sets in isolated sandboxes. | Critical for Zero-Day threat payload analysis [tryhackme.com]. |
+| **`Unpacker`** | Decrypts runtime packed and compressed binaries. | Mandatory for extracting hidden malware strings [tryhackme.com]. |
+| **`IP Packets`** | Encapsulated data structures containing source/destination routing flags. | Baseline for Security Operations Center (SOC) packet inspection [tryhackme.com]. |
+
+---
+
+## 📅 Next Operational Goals
+1. Maintain the 6-day discipline momentum into the upcoming week [github.com].
+2. Unlock the **7-Day Streak** milestone tomorrow by returning to active Linux terminal operations [tryhackme.com].
+
+
 ## 🛡️ Next Technical Goals
 1. Proceed with the automated tracking of daily cybersecurity room objectives.
 2. Synchronize Linux command line logs with the public repository layout [github.com].
