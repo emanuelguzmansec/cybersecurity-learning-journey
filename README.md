@@ -148,3 +148,40 @@ Today I audited the core infrastructure mechanics governing Client-Server commun
 2. Execute SSH remote routing to exploit file paths in Linux Bandit Level 2 [tryhackme.com].
 
 
+
+# Technical Log: Day 8 (Phishing Forensics, Deobfuscation & Silver League Pathfinder)
+
+## 🚀 Key Achievements & Competitive Metrics
+* **Platform User:** `emanuelgta119s` 🇨🇴
+* **Rank Progression Secured:** Upgraded to **`[0x3][PATHFINDER]`** 🔓
+* **Global Standing:** **320 Points Reached** inside the **Silver League** Promotion Zone! 🏆
+* **Streak Milestone:** **8-Day Streak Secured** (Entering Week 2 invicto) 🔥
+
+---
+
+## 📊 Technical Breakdown: Phishing Incident Response
+
+Today I executed an end-to-end forensic investigation on a credential harvesting campaign, tracing malicious relay hosting and exfiltration structures.
+
+### Infrastructure Investigation Checklist
+
+| Component Analyzed | Technical Discovery | Cyber Security Objective / Action |
+| :--- | :--- | :--- |
+| **Email Headers** | Mapped source IP routing flags to malicious relay nodes in **Latvia** [tryhackme.com]. | Infrastructure block-listing and source attribution. |
+| **Deobfuscated Script** | Extracted **`window.location.href`** used for stealth victim redirection [tryhackme.com]. | Identifying post-exploitation mechanics to prevent alert triggers. |
+| **Exfiltration Endpoint** | Discovered hidden harvest database path at **`evilparrot.thm:8080/creds.txt`** [tryhackme.com]. | Compiling list of compromised data targets. |
+| **Credential Interception** | Retrieved plain-text login string for Chris Smith: **`FlyL1ke!A~Bird`** [tryhackme.com]. | Target account isolation, credentials revocation, and host containment [tryhackme.com]. |
+
+---
+
+## 🛡️ CyberChef Code Deobfuscation Recipes Applied
+* **Base64 String Conversion:** Reverse-engineered binary payload obfuscation layers back to core plain text [tryhackme.com].
+* **JavaScript & CSS Beautify:** Re-rendered minified backend sheets to expose the raw malicious host destination: `http://evilparrot.thm` [tryhackme.com].
+* **JS Property Identification:** Isolated native function **`atob()`** utilized by the threat actor to decode payloads on the client side [tryhackme.com].
+
+---
+
+## 📅 Next Operational Goals
+1. Maintain active compliance metrics by synchronizing repository history layouts [github.com].
+2. Execute remote shell access protocols via SSH to proceed with Linux Bandit challenges [tryhackme.com].
+
